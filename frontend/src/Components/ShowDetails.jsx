@@ -70,7 +70,7 @@ function ShowDetails() {
                             <p style={{ fontSize: "13px" }}>{element.userJobTitle}</p>
                           </div>
                           <div style={{ position: "absolute", top: "10px", left: "270px" }}>
-                            <i class="fa-solid fa-trash-can" onClick={()=> onDeleteClick(element.userEmpID)}></i>
+                            <i class="fa-regular fa-trash-can" onClick={()=> onDeleteClick(element.userEmpID)}></i>
                           </div>
                         </div>
                         <div
